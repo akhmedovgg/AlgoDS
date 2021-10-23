@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(PalindromeNumber.isPalindrome(10))
+print(TwoSum.twoSum([3, 2, 4], 6))
 

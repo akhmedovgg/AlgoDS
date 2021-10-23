@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9634E22F27248B66000740E6 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9634E22E27248B66000740E6 /* TwoSum.swift */; };
 		96E3577F272481C800976D61 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3577E272481C800976D61 /* main.swift */; };
 		96E3578E2724845000976D61 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3578D2724845000976D61 /* PalindromeNumber.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9634E22E27248B66000740E6 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		96E3577B272481C800976D61 /* LCSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LCSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E3577E272481C800976D61 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		96E3578D2724845000976D61 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9634E22D27248B5A000740E6 /* TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				9634E22E27248B66000740E6 /* TwoSum.swift */,
+			);
+			path = TwoSum;
+			sourceTree = "<group>";
+		};
 		96E35772272481C800976D61 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		96E3578B2724843000976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				9634E22D27248B5A000740E6 /* TwoSum */,
 				96E3578C2724843900976D61 /* PalindromeNumber */,
 			);
 			path = Problems;
@@ -141,6 +152,7 @@
 			files = (
 				96E3577F272481C800976D61 /* main.swift in Sources */,
 				96E3578E2724845000976D61 /* PalindromeNumber.swift in Sources */,
+				9634E22F27248B66000740E6 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
