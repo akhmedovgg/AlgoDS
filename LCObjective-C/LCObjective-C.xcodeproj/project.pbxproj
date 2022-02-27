@@ -10,6 +10,7 @@
 		9634E23327248ED8000740E6 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9634E23227248ED8000740E6 /* TwoSum.m */; };
 		96E3576C272481B200976D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3576B272481B200976D61 /* main.m */; };
 		96E3578A272482C400976D61 /* PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E35789272482C300976D61 /* PalindromeNumber.m */; };
+		F0A3551527CBAC6C003E3B5A /* RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		96E3576B272481B200976D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96E35788272482A100976D61 /* PalindromeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
 		96E35789272482C300976D61 /* PalindromeNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromeNumber.m; sourceTree = "<group>"; };
+		F0A3551327CBAC55003E3B5A /* RomanToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RomanToInteger.h; sourceTree = "<group>"; };
+		F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanToInteger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		96E357862724826500976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F0A3551227CBAC4A003E3B5A /* RomanToInteger */,
 				9634E23027248EB9000740E6 /* TwoSum */,
 				96E357872724826F00976D61 /* PalindromeNumber */,
 			);
@@ -94,6 +98,15 @@
 				96E35789272482C300976D61 /* PalindromeNumber.m */,
 			);
 			path = PalindromeNumber;
+			sourceTree = "<group>";
+		};
+		F0A3551227CBAC4A003E3B5A /* RomanToInteger */ = {
+			isa = PBXGroup;
+			children = (
+				F0A3551327CBAC55003E3B5A /* RomanToInteger.h */,
+				F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */,
+			);
+			path = RomanToInteger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E3576C272481B200976D61 /* main.m in Sources */,
+				F0A3551527CBAC6C003E3B5A /* RomanToInteger.m in Sources */,
 				9634E23327248ED8000740E6 /* TwoSum.m in Sources */,
 				96E3578A272482C400976D61 /* PalindromeNumber.m in Sources */,
 			);

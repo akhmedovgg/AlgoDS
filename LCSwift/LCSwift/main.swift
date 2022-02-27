@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(PalindromeNumber.isPalindrome(0))
+print(RomanToInteger.romanToInt("MMXXII"))
 

@@ -6,12 +6,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Problems/PalindromeNumber/PalindromeNumber.h"
+#import "Problems/RomanToInteger/RomanToInteger.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        BOOL isPalindrome = [PalindromeNumber isPalindrome:10];
-        NSLog(@"Is palindrome: %i", isPalindrome);
+        NSNumber *num = [RomanToInteger romanToInt:@"MMXXII"];
+        NSLog(@"%li", [num longValue]);
+        
+//        BOOL isPalindrome = [PalindromeNumber isPalindrome:10];
+//        NSLog(@"Is palindrome: %i", isPalindrome);
     }
     return 0;
 }
