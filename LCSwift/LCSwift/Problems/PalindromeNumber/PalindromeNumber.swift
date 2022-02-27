@@ -9,7 +9,7 @@ import Foundation
 
 class PalindromeNumber {
     static func isPalindrome(_ x: Int) -> Bool {
-        if x < 11 {
+        if x < 0 {
             return false
         }
         

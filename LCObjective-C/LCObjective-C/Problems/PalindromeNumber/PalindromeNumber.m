@@ -12,7 +12,7 @@
 
 + (BOOL)isPalindrome:(int)n
 {
-    if (n < 11) {
+    if (n < 0) {
         return false;
     }
     
