@@ -11,6 +11,7 @@
 		96E3576C272481B200976D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3576B272481B200976D61 /* main.m */; };
 		96E3578A272482C400976D61 /* PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E35789272482C300976D61 /* PalindromeNumber.m */; };
 		F0A3551527CBAC6C003E3B5A /* RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */; };
+		F0B36BBC27DCB443008278C5 /* LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B36BBB27DCB443008278C5 /* LongestCommonPrefix.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		96E35789272482C300976D61 /* PalindromeNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromeNumber.m; sourceTree = "<group>"; };
 		F0A3551327CBAC55003E3B5A /* RomanToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RomanToInteger.h; sourceTree = "<group>"; };
 		F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanToInteger.m; sourceTree = "<group>"; };
+		F0B36BBA27DCB438008278C5 /* LongestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestCommonPrefix.h; sourceTree = "<group>"; };
+		F0B36BBB27DCB443008278C5 /* LongestCommonPrefix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestCommonPrefix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		96E357862724826500976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F0B36BB927DCB424008278C5 /* LongestCommonPrefix */,
 				F0A3551227CBAC4A003E3B5A /* RomanToInteger */,
 				9634E23027248EB9000740E6 /* TwoSum */,
 				96E357872724826F00976D61 /* PalindromeNumber */,
@@ -107,6 +111,15 @@
 				F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */,
 			);
 			path = RomanToInteger;
+			sourceTree = "<group>";
+		};
+		F0B36BB927DCB424008278C5 /* LongestCommonPrefix */ = {
+			isa = PBXGroup;
+			children = (
+				F0B36BBA27DCB438008278C5 /* LongestCommonPrefix.h */,
+				F0B36BBB27DCB443008278C5 /* LongestCommonPrefix.m */,
+			);
+			path = LongestCommonPrefix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +182,7 @@
 				96E3576C272481B200976D61 /* main.m in Sources */,
 				F0A3551527CBAC6C003E3B5A /* RomanToInteger.m in Sources */,
 				9634E23327248ED8000740E6 /* TwoSum.m in Sources */,
+				F0B36BBC27DCB443008278C5 /* LongestCommonPrefix.m in Sources */,
 				96E3578A272482C400976D61 /* PalindromeNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,15 +6,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Problems/RomanToInteger/RomanToInteger.h"
+#import "Problems/LongestCommonPrefix/LongestCommonPrefix.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSNumber *num = [RomanToInteger romanToInt:@"MMXXII"];
-        NSLog(@"%li", [num longValue]);
-        
-//        BOOL isPalindrome = [PalindromeNumber isPalindrome:10];
-//        NSLog(@"Is palindrome: %i", isPalindrome);
+        NSLog(@"%@", [LongestCommonPrefix longestCommonPrefix:@[
+            @"flow",
+            @"flowers",
+            @"flight",
+        ]]);
     }
     return 0;
 }

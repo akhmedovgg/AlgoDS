@@ -11,6 +11,7 @@
 		96E3577F272481C800976D61 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3577E272481C800976D61 /* main.swift */; };
 		96E3578E2724845000976D61 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3578D2724845000976D61 /* PalindromeNumber.swift */; };
 		F0A3551127CBA375003E3B5A /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A3551027CBA375003E3B5A /* RomanToInteger.swift */; };
+		F0B36BB827DCA666008278C5 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B36BB727DCA666008278C5 /* LongestCommonPrefix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		96E3577E272481C800976D61 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		96E3578D2724845000976D61 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		F0A3551027CBA375003E3B5A /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
+		F0B36BB727DCA666008278C5 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		96E3578B2724843000976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F0B36BB627DCA652008278C5 /* LongestCommonPrefix */,
 				F0A3550F27CBA366003E3B5A /* RomanToInteger */,
 				9634E22D27248B5A000740E6 /* TwoSum */,
 				96E3578C2724843900976D61 /* PalindromeNumber */,
@@ -101,6 +104,14 @@
 				F0A3551027CBA375003E3B5A /* RomanToInteger.swift */,
 			);
 			path = RomanToInteger;
+			sourceTree = "<group>";
+		};
+		F0B36BB627DCA652008278C5 /* LongestCommonPrefix */ = {
+			isa = PBXGroup;
+			children = (
+				F0B36BB727DCA666008278C5 /* LongestCommonPrefix.swift */,
+			);
+			path = LongestCommonPrefix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E3577F272481C800976D61 /* main.swift in Sources */,
+				F0B36BB827DCA666008278C5 /* LongestCommonPrefix.swift in Sources */,
 				F0A3551127CBA375003E3B5A /* RomanToInteger.swift in Sources */,
 				96E3578E2724845000976D61 /* PalindromeNumber.swift in Sources */,
 				9634E22F27248B66000740E6 /* TwoSum.swift in Sources */,

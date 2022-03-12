@@ -7,5 +7,7 @@
 
 import Foundation
 
-print(RomanToInteger.romanToInt("MMXXII"))
+print(
+    LongestCommonPrefix.longestCommonPrefix(["flower", "flow", "flight"])
+)
 
