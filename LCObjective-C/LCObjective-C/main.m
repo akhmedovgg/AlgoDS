@@ -7,14 +7,13 @@
 
 #import <Foundation/Foundation.h>
 #import "Problems/LongestCommonPrefix/LongestCommonPrefix.h"
+#import "Problems/ValidParentheses/ValidParentheses.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSLog(@"%@", [LongestCommonPrefix longestCommonPrefix:@[
-            @"flow",
-            @"flowers",
-            @"flight",
-        ]]);
+        NSString *s = @"[[[{}{}[]((([])[])[]){}{}{}()]]]";
+        BOOL isValid = [ValidParentheses isValid:s];
+        NSLog(@"Is valid: %i", isValid);
     }
     return 0;
 }

@@ -8,6 +8,6 @@
 import Foundation
 
 print(
-    LongestCommonPrefix.longestCommonPrefix(["flower", "flow", "flight"])
+    ValidParentheses.isValid("[[[[()()(){{}()(){}[][][]}]]]][[][][][]]")
 )
 
