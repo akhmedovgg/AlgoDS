@@ -8,8 +8,6 @@
 #ifndef MergeTwoSortedLists_h
 #define MergeTwoSortedLists_h
 
-//func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
-
 @class ListNode;
 
 @interface MergeTwoSortedLists : NSObject
