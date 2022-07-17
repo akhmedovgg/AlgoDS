@@ -10,6 +10,7 @@
 		9634E22F27248B66000740E6 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9634E22E27248B66000740E6 /* TwoSum.swift */; };
 		96E3577F272481C800976D61 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3577E272481C800976D61 /* main.swift */; };
 		96E3578E2724845000976D61 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3578D2724845000976D61 /* PalindromeNumber.swift */; };
+		F06E21892884C0220026F0B8 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06E21882884C0220026F0B8 /* MergeTwoSortedLists.swift */; };
 		F09642862868689600D60C04 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09642852868689600D60C04 /* ValidParentheses.swift */; };
 		F0A3551127CBA375003E3B5A /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A3551027CBA375003E3B5A /* RomanToInteger.swift */; };
 		F0B36BB827DCA666008278C5 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B36BB727DCA666008278C5 /* LongestCommonPrefix.swift */; };
@@ -32,6 +33,7 @@
 		96E3577B272481C800976D61 /* LCSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LCSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E3577E272481C800976D61 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		96E3578D2724845000976D61 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
+		F06E21882884C0220026F0B8 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		F09642852868689600D60C04 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		F0A3551027CBA375003E3B5A /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
 		F0B36BB727DCA666008278C5 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		96E3578B2724843000976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F06E21872884C0080026F0B8 /* MergeTwoSortedLists */,
 				F09642842868688500D60C04 /* ValidParentheses */,
 				F0B36BB627DCA652008278C5 /* LongestCommonPrefix */,
 				F0A3550F27CBA366003E3B5A /* RomanToInteger */,
@@ -99,6 +102,14 @@
 				96E3578D2724845000976D61 /* PalindromeNumber.swift */,
 			);
 			path = PalindromeNumber;
+			sourceTree = "<group>";
+		};
+		F06E21872884C0080026F0B8 /* MergeTwoSortedLists */ = {
+			isa = PBXGroup;
+			children = (
+				F06E21882884C0220026F0B8 /* MergeTwoSortedLists.swift */,
+			);
+			path = MergeTwoSortedLists;
 			sourceTree = "<group>";
 		};
 		F09642842868688500D60C04 /* ValidParentheses */ = {
@@ -188,6 +199,7 @@
 				F0B36BB827DCA666008278C5 /* LongestCommonPrefix.swift in Sources */,
 				F0A3551127CBA375003E3B5A /* RomanToInteger.swift in Sources */,
 				96E3578E2724845000976D61 /* PalindromeNumber.swift in Sources */,
+				F06E21892884C0220026F0B8 /* MergeTwoSortedLists.swift in Sources */,
 				9634E22F27248B66000740E6 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

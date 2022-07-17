@@ -6,14 +6,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Problems/LongestCommonPrefix/LongestCommonPrefix.h"
-#import "Problems/ValidParentheses/ValidParentheses.h"
+#import "Problems/MergeTwoSortedLists/ListNode.h"
+#import "Problems/MergeTwoSortedLists/MergeTwoSortedLists.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSString *s = @"[[[{}{}[]((([])[])[]){}{}{}()]]]";
-        BOOL isValid = [ValidParentheses isValid:s];
-        NSLog(@"Is valid: %i", isValid);
+        ListNode *node1 = [[ListNode alloc] initWithVal:4];
+        node1.next = [[ListNode alloc] initWithVal:2];
+        node1.next.next = [[ListNode alloc] initWithVal:1];
+        
+        ListNode *node2 = [[ListNode alloc] initWithVal:4];
+        node2.next = [[ListNode alloc] initWithVal:1];
+        node2.next.next = [[ListNode alloc] initWithVal:3];
+        
+        ListNode *sortedNode = [MergeTwoSortedLists mergeTwoLists:node1 andList:node2];
+        
+        NSLog(@"%@", sortedNode);
     }
     return 0;
 }
