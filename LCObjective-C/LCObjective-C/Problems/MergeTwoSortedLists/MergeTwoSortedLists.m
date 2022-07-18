@@ -11,7 +11,7 @@
 
 @interface MergeTwoSortedLists ()
 
-+ (NSArray *)convertListNodeToArray: (ListNode *)node;
++ (NSArray *)convertListNodeToArray: (ListNode * _Nullable)node;
 
 @end
 
@@ -39,7 +39,6 @@
 
 + (NSArray *)convertListNodeToArray:(ListNode *)node {
     if (node == nil) return [[NSArray alloc] init];
-    
     NSMutableArray *result = [[NSMutableArray alloc] init];
     ListNode *sequenceNode = node;
     for (;;) {
