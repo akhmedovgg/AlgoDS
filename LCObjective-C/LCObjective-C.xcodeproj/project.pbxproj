@@ -10,6 +10,7 @@
 		9634E23327248ED8000740E6 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9634E23227248ED8000740E6 /* TwoSum.m */; };
 		96E3576C272481B200976D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3576B272481B200976D61 /* main.m */; };
 		96E3578A272482C400976D61 /* PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E35789272482C300976D61 /* PalindromeNumber.m */; };
+		F04623C3288771410039245E /* RemoveDuplicatesFromSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F04623C2288771410039245E /* RemoveDuplicatesFromSortedArray.m */; };
 		F06E218D2884CA920026F0B8 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E218C2884CA910026F0B8 /* ListNode.m */; };
 		F06E21902884CDD90026F0B8 /* MergeTwoSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E218F2884CDD90026F0B8 /* MergeTwoSortedLists.m */; };
 		F096428A2868690C00D60C04 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = F09642892868690C00D60C04 /* ValidParentheses.m */; };
@@ -36,6 +37,9 @@
 		96E3576B272481B200976D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96E35788272482A100976D61 /* PalindromeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
 		96E35789272482C300976D61 /* PalindromeNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromeNumber.m; sourceTree = "<group>"; };
+		F04623C1288770F80039245E /* RemoveDuplicatesFromSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicatesFromSortedArray.h; sourceTree = "<group>"; };
+		F04623C2288771410039245E /* RemoveDuplicatesFromSortedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveDuplicatesFromSortedArray.m; sourceTree = "<group>"; };
+		F04623C42887718B0039245E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F06E218B2884CA860026F0B8 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		F06E218C2884CA910026F0B8 /* ListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		F06E218E2884CDC90026F0B8 /* MergeTwoSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeTwoSortedLists.h; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		96E357862724826500976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F04623C0288770EF0039245E /* RemoveDuplicatesFromSortedArray */,
 				F06E218A2884CA7A0026F0B8 /* MergeTwoSortedLists */,
 				F0964287286868F500D60C04 /* ValidParentheses */,
 				F0B36BB927DCB424008278C5 /* LongestCommonPrefix */,
@@ -113,6 +118,16 @@
 				96E35789272482C300976D61 /* PalindromeNumber.m */,
 			);
 			path = PalindromeNumber;
+			sourceTree = "<group>";
+		};
+		F04623C0288770EF0039245E /* RemoveDuplicatesFromSortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				F04623C1288770F80039245E /* RemoveDuplicatesFromSortedArray.h */,
+				F04623C2288771410039245E /* RemoveDuplicatesFromSortedArray.m */,
+				F04623C42887718B0039245E /* README.md */,
+			);
+			path = RemoveDuplicatesFromSortedArray;
 			sourceTree = "<group>";
 		};
 		F06E218A2884CA7A0026F0B8 /* MergeTwoSortedLists */ = {
@@ -218,6 +233,7 @@
 				9634E23327248ED8000740E6 /* TwoSum.m in Sources */,
 				F0B36BBC27DCB443008278C5 /* LongestCommonPrefix.m in Sources */,
 				96E3578A272482C400976D61 /* PalindromeNumber.m in Sources */,
+				F04623C3288771410039245E /* RemoveDuplicatesFromSortedArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

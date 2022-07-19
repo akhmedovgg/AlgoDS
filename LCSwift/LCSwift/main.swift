@@ -7,19 +7,8 @@
 
 import Foundation
 
-typealias ListNode = MergeTwoSortedLists.ListNode
+var array = [1, 2, 2, 2, 2, 2, 3, 3]
+let countOfUniqueElements = RemoveDuplicatesFromSortedArray.removeDuplicates(&array)
 
-let node1 = ListNode(1)
-node1.next = ListNode(2)
-node1.next!.next = ListNode(4)
-
-let node2 = ListNode(1)
-node2.next = ListNode(3)
-node2.next!.next = ListNode(4)
-
-let result = MergeTwoSortedLists.mergeTwoLists(node1, node2)
-
-print(
-    result
-)
-
+print(array)
+print("Count of unique elements: \(countOfUniqueElements)")
