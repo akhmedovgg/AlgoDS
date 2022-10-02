@@ -10,6 +10,7 @@
 		9634E23327248ED8000740E6 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9634E23227248ED8000740E6 /* TwoSum.m */; };
 		96E3576C272481B200976D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3576B272481B200976D61 /* main.m */; };
 		96E3578A272482C400976D61 /* PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E35789272482C300976D61 /* PalindromeNumber.m */; };
+		F023D7C528EA326E00A3225F /* RemoveElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F023D7C428EA326E00A3225F /* RemoveElement.m */; };
 		F04623C3288771410039245E /* RemoveDuplicatesFromSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F04623C2288771410039245E /* RemoveDuplicatesFromSortedArray.m */; };
 		F06E218D2884CA920026F0B8 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E218C2884CA910026F0B8 /* ListNode.m */; };
 		F06E21902884CDD90026F0B8 /* MergeTwoSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E218F2884CDD90026F0B8 /* MergeTwoSortedLists.m */; };
@@ -37,6 +38,8 @@
 		96E3576B272481B200976D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96E35788272482A100976D61 /* PalindromeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
 		96E35789272482C300976D61 /* PalindromeNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromeNumber.m; sourceTree = "<group>"; };
+		F023D7C328EA326200A3225F /* RemoveElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveElement.h; sourceTree = "<group>"; };
+		F023D7C428EA326E00A3225F /* RemoveElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveElement.m; sourceTree = "<group>"; };
 		F04623C1288770F80039245E /* RemoveDuplicatesFromSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicatesFromSortedArray.h; sourceTree = "<group>"; };
 		F04623C2288771410039245E /* RemoveDuplicatesFromSortedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveDuplicatesFromSortedArray.m; sourceTree = "<group>"; };
 		F04623C42887718B0039245E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -100,6 +103,7 @@
 		96E357862724826500976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F023D7C228EA325700A3225F /* RemoveElement */,
 				F04623C0288770EF0039245E /* RemoveDuplicatesFromSortedArray */,
 				F06E218A2884CA7A0026F0B8 /* MergeTwoSortedLists */,
 				F0964287286868F500D60C04 /* ValidParentheses */,
@@ -118,6 +122,15 @@
 				96E35789272482C300976D61 /* PalindromeNumber.m */,
 			);
 			path = PalindromeNumber;
+			sourceTree = "<group>";
+		};
+		F023D7C228EA325700A3225F /* RemoveElement */ = {
+			isa = PBXGroup;
+			children = (
+				F023D7C328EA326200A3225F /* RemoveElement.h */,
+				F023D7C428EA326E00A3225F /* RemoveElement.m */,
+			);
+			path = RemoveElement;
 			sourceTree = "<group>";
 		};
 		F04623C0288770EF0039245E /* RemoveDuplicatesFromSortedArray */ = {
@@ -195,7 +208,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					96E35767272481B200976D61 = {
 						CreatedOnToolsVersion = 13.0;
@@ -229,6 +242,7 @@
 				F096428A2868690C00D60C04 /* ValidParentheses.m in Sources */,
 				F06E21902884CDD90026F0B8 /* MergeTwoSortedLists.m in Sources */,
 				F06E218D2884CA920026F0B8 /* ListNode.m in Sources */,
+				F023D7C528EA326E00A3225F /* RemoveElement.m in Sources */,
 				F0A3551527CBAC6C003E3B5A /* RomanToInteger.m in Sources */,
 				9634E23327248ED8000740E6 /* TwoSum.m in Sources */,
 				F0B36BBC27DCB443008278C5 /* LongestCommonPrefix.m in Sources */,
@@ -274,6 +288,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -333,6 +348,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -354,7 +370,9 @@
 		96E35770272481B200976D61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 8XKHWWA38H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,7 +382,9 @@
 		96E35771272481B200976D61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 8XKHWWA38H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
