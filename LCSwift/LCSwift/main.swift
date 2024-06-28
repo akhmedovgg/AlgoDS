@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(FirstOccurrenceString.strStr("leetcode", "leet"))
+print(LengthOfLastWord.lengthOfLastWord("hello world"))

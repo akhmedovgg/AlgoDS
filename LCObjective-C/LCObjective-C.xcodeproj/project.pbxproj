@@ -18,6 +18,7 @@
 		F0A3551527CBAC6C003E3B5A /* RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */; };
 		F0B36BBC27DCB443008278C5 /* LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B36BBB27DCB443008278C5 /* LongestCommonPrefix.m */; };
 		F0B5C8D42C2F4CFF00C9326A /* FirstOccurrenceString.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B5C8D32C2F4CFF00C9326A /* FirstOccurrenceString.m */; };
+		F0B5C8D82C2F50C100C9326A /* LengthOfLastWord.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B5C8D72C2F50C100C9326A /* LengthOfLastWord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +57,8 @@
 		F0B36BBB27DCB443008278C5 /* LongestCommonPrefix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestCommonPrefix.m; sourceTree = "<group>"; };
 		F0B5C8D22C2F4CF400C9326A /* FirstOccurrenceString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstOccurrenceString.h; sourceTree = "<group>"; };
 		F0B5C8D32C2F4CFF00C9326A /* FirstOccurrenceString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstOccurrenceString.m; sourceTree = "<group>"; };
+		F0B5C8D62C2F50BC00C9326A /* LengthOfLastWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LengthOfLastWord.h; sourceTree = "<group>"; };
+		F0B5C8D72C2F50C100C9326A /* LengthOfLastWord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LengthOfLastWord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 		96E357862724826500976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F0B5C8D52C2F50B400C9326A /* LengthOfLastWord */,
 				F0B5C8D12C2F4CF000C9326A /* FirstOccurrenceString */,
 				F023D7C228EA325700A3225F /* RemoveElement */,
 				F04623C0288770EF0039245E /* RemoveDuplicatesFromSortedArray */,
@@ -194,6 +198,15 @@
 			path = FirstOccurrenceString;
 			sourceTree = "<group>";
 		};
+		F0B5C8D52C2F50B400C9326A /* LengthOfLastWord */ = {
+			isa = PBXGroup;
+			children = (
+				F0B5C8D62C2F50BC00C9326A /* LengthOfLastWord.h */,
+				F0B5C8D72C2F50C100C9326A /* LengthOfLastWord.m */,
+			);
+			path = LengthOfLastWord;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B5C8D82C2F50C100C9326A /* LengthOfLastWord.m in Sources */,
 				96E3576C272481B200976D61 /* main.m in Sources */,
 				F096428A2868690C00D60C04 /* ValidParentheses.m in Sources */,
 				F06E21902884CDD90026F0B8 /* MergeTwoSortedLists.m in Sources */,

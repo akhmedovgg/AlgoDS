@@ -6,12 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Problems/FirstOccurrenceString/FirstOccurrenceString.h"
+#import "Problems/LengthOfLastWord/LengthOfLastWord.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSInteger position = [FirstOccurrenceString findPositionOfNeedle:@"helslo" fromHaystack:@"sayhello"];
-        NSLog(@"%li", position);
+        NSInteger length = [LengthOfLastWord lengthOfLastWord:@"hello world moon ssadsad    f    ee "];
+        NSLog(@"%li", length);
     }
     return 0;
 }
