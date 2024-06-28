@@ -16,6 +16,7 @@
 		F09642862868689600D60C04 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09642852868689600D60C04 /* ValidParentheses.swift */; };
 		F0A3551127CBA375003E3B5A /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A3551027CBA375003E3B5A /* RomanToInteger.swift */; };
 		F0B36BB827DCA666008278C5 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B36BB727DCA666008278C5 /* LongestCommonPrefix.swift */; };
+		F0B5C8D02C2F47AD00C9326A /* FirstOccurrenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5C8CF2C2F47AD00C9326A /* FirstOccurrenceString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		F09642852868689600D60C04 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		F0A3551027CBA375003E3B5A /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
 		F0B36BB727DCA666008278C5 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		F0B5C8CF2C2F47AD00C9326A /* FirstOccurrenceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOccurrenceString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		96E3578B2724843000976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F0B5C8CE2C2F478400C9326A /* FirstOccurrenceString */,
 				F023D7BF28EA31C900A3225F /* RemoveElement */,
 				F04623BC288759710039245E /* RemoveDuplicatesFromSortedArray */,
 				F06E21872884C0080026F0B8 /* MergeTwoSortedLists */,
@@ -158,6 +161,14 @@
 			path = LongestCommonPrefix;
 			sourceTree = "<group>";
 		};
+		F0B5C8CE2C2F478400C9326A /* FirstOccurrenceString */ = {
+			isa = PBXGroup;
+			children = (
+				F0B5C8CF2C2F47AD00C9326A /* FirstOccurrenceString.swift */,
+			);
+			path = FirstOccurrenceString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B5C8D02C2F47AD00C9326A /* FirstOccurrenceString.swift in Sources */,
 				F04623BE288759930039245E /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				96E3577F272481C800976D61 /* main.swift in Sources */,
 				F023D7C128EA321600A3225F /* RemoveElement.swift in Sources */,
