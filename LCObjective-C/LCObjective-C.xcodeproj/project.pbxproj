@@ -17,6 +17,7 @@
 		F096428A2868690C00D60C04 /* ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = F09642892868690C00D60C04 /* ValidParentheses.m */; };
 		F0A3551527CBAC6C003E3B5A /* RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */; };
 		F0B36BBC27DCB443008278C5 /* LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B36BBB27DCB443008278C5 /* LongestCommonPrefix.m */; };
+		F0B5C8D42C2F4CFF00C9326A /* FirstOccurrenceString.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B5C8D32C2F4CFF00C9326A /* FirstOccurrenceString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,8 @@
 		F0A3551427CBAC6C003E3B5A /* RomanToInteger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanToInteger.m; sourceTree = "<group>"; };
 		F0B36BBA27DCB438008278C5 /* LongestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestCommonPrefix.h; sourceTree = "<group>"; };
 		F0B36BBB27DCB443008278C5 /* LongestCommonPrefix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestCommonPrefix.m; sourceTree = "<group>"; };
+		F0B5C8D22C2F4CF400C9326A /* FirstOccurrenceString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstOccurrenceString.h; sourceTree = "<group>"; };
+		F0B5C8D32C2F4CFF00C9326A /* FirstOccurrenceString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstOccurrenceString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		96E357862724826500976D61 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				F0B5C8D12C2F4CF000C9326A /* FirstOccurrenceString */,
 				F023D7C228EA325700A3225F /* RemoveElement */,
 				F04623C0288770EF0039245E /* RemoveDuplicatesFromSortedArray */,
 				F06E218A2884CA7A0026F0B8 /* MergeTwoSortedLists */,
@@ -181,6 +185,15 @@
 			path = LongestCommonPrefix;
 			sourceTree = "<group>";
 		};
+		F0B5C8D12C2F4CF000C9326A /* FirstOccurrenceString */ = {
+			isa = PBXGroup;
+			children = (
+				F0B5C8D22C2F4CF400C9326A /* FirstOccurrenceString.h */,
+				F0B5C8D32C2F4CFF00C9326A /* FirstOccurrenceString.m */,
+			);
+			path = FirstOccurrenceString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -246,6 +259,7 @@
 				F0A3551527CBAC6C003E3B5A /* RomanToInteger.m in Sources */,
 				9634E23327248ED8000740E6 /* TwoSum.m in Sources */,
 				F0B36BBC27DCB443008278C5 /* LongestCommonPrefix.m in Sources */,
+				F0B5C8D42C2F4CFF00C9326A /* FirstOccurrenceString.m in Sources */,
 				96E3578A272482C400976D61 /* PalindromeNumber.m in Sources */,
 				F04623C3288771410039245E /* RemoveDuplicatesFromSortedArray.m in Sources */,
 			);

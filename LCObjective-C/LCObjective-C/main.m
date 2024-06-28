@@ -6,15 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Problems/RemoveElement/RemoveElement.h"
+#import "Problems/FirstOccurrenceString/FirstOccurrenceString.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSMutableArray *arr = [[NSMutableArray alloc] initWithArray:@[@3, @2, @2, @3]];
-        NSNumber *num = @3;
-        NSUInteger removedElementsCount = [RemoveElement removeElementNums:arr whereValue:num];
-        NSLog(@"%lu", removedElementsCount);
-        NSLog(@"Done");
+        NSInteger position = [FirstOccurrenceString findPositionOfNeedle:@"helslo" fromHaystack:@"sayhello"];
+        NSLog(@"%li", position);
     }
     return 0;
 }
