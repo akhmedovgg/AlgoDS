@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSInteger length = [LengthOfLastWord lengthOfLastWord:@"hello world moon ssadsad    f    ee "];
+        NSInteger length = [LengthOfLastWord lengthOfLastWord:@"333 12   aslkdmaskldaskl "];
         NSLog(@"%li", length);
     }
     return 0;
