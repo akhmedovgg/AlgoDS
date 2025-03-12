@@ -16,4 +16,5 @@ LeetCode Algorithm
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |  [Objective-C](./LCObjective-C/LCObjective-C/Problems/RemoveElement), [Swift](./LCSwift/LCSwift/Problems/RemoveElement)| Easy |
 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Objective-C](./LCObjective-C/LCObjective-C/Problems/FirstOccurrenceString), [Swift](./LCSwift/LCSwift/Problems/FirstOccurrenceString)| Easy |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Objective-C](./LCObjective-C/LCObjective-C/Problems/LengthOfLastWord), [Swift](./LCSwift/LCSwift/Problems/LengthOfLastWord)| Easy |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Swift](./LCSwift/LCSwift/Problems/PlusOne)| Easy |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Swift](./LCSwift/LCSwift/Problems/NumberOfStepsToReduce)| Easy |
